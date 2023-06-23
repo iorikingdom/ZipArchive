@@ -16,4 +16,6 @@ It can be used for iPhone application development, and cocoa on Mac OSX as well.
   s.library   = 'z'
   s.requires_arc = false
   s.compiler_flags = '-Dunix'
+  s.platform     = :ios, '12.0'
+
 end
